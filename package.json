@@ -4,7 +4,7 @@
   "description": "Generates Changelog from Github releases",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "exit 0"
   },
   "repository": {
