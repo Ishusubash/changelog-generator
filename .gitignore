@@ -122,3 +122,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+## Current Project unwanted files
+CHANGELOG.md
+sample.json
