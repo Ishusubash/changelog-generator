@@ -1,0 +1,26 @@
+{
+  "name": "changelog-generator",
+  "version": "1.0.0-alpha.0",
+  "description": "Generates Changelog from Github releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Sibiraj@bitbucket.org/Sibiraj/changelog-generator.git"
+  },
+  "keywords": [
+    "changelog-generator",
+    "github-releases"
+  ],
+  "author": "Sibiraj-S",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/Sibiraj/changelog-generator#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}

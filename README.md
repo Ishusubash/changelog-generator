@@ -1,2 +1,3 @@
-# changelog-generator
-Generate Changelog from Github Releases
+# Changelog Generator
+
+Create Changelog from Github Releases
