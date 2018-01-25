@@ -3,7 +3,8 @@ const app = express();
 const serveStatic = require('serve-static');
 const path = require('path');
 const moment = require('moment');
-var fs = require('fs');
+const PORT = process.env.PORT || 5000;
+const fs = require('fs');
 
 const fileName = 'CHANGELOG.md';
 
@@ -52,4 +53,4 @@ function contentToWrite(release) {
     return '## ' + release.tag_name + ' (' + moment(release.published_at).format('YYYY-MM-DD') + ')\n\n' + release.body + '\n\n';
 }
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(PORT, () => console.log('Example app listening on port 3000!'))
